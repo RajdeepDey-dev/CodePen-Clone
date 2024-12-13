@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.CodeMirror{
+    background: rgb(55,65,81) !important;
+}
+.CodeMirror-gutters{
+    background: rgb(55,65,81)  !important;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    width: 0px;
+    background: #49484800;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: #23232300;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #06060600;
+  }
